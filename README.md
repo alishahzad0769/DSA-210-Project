@@ -34,3 +34,22 @@ Following the guidelines for using public data, I have enriched the dataset with
 * **Planned Analysis**: These enrichments allow for the exploration of how modern daily habits influence the relationship between study hours and academic performance.
 
 ---
+
+## **Project Status: Milestone 1 (April 14, 2026)**
+
+The initial phase of data processing and statistical analysis is complete. The following tasks have been performed in the current commit:
+
+### **1. Data Preparation & Enrichment**
+* **Cleaning:** Handled missing values and verified data types for the 2,392 student records.
+* **Feature Engineering:** * Calculated **Study Efficiency Score** (Study Time relative to Absences).
+    * Integrated synthetic **Screen Time** and **Sleep Hours** variables to analyze modern lifestyle impacts.
+
+### **2. Statistical Analysis & Hypothesis Testing**
+I conducted a T-Test to evaluate the impact of sleep on academic performance:
+* **Null Hypothesis ($H_0$):** There is no significant difference in GPA between students who sleep $\ge 7$ hours and those who sleep $< 7$ hours.
+* **Findings:** With a p-value $< 0.05$, we rejected the null hypothesis, indicating that sleep patterns have a statistically significant relationship with student GPA.
+
+### **3. Visualizations**
+* Created a **Regression Plot** comparing weekly study hours to GPA, showing a clear positive correlation between consistent study habits and higher academic scores.
+
+---
