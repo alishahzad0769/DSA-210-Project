@@ -89,3 +89,33 @@ Using the correlation heatmap, we analyzed how various factors interact. Key obs
 I performed a T-Test to compare students with high sleep (>7 hours) versus low sleep.
 * **Result:** The p-value was significantly lower than 0.05.
 * **Conclusion:** We reject the null hypothesis. There is a statistically significant difference in GPA based on sleep patterns, proving that lifestyle enrichment was vital for this study.
+---
+
+## **Key Findings (Milestone 1)**
+
+Based on the Exploratory Data Analysis (EDA) and initial hypothesis testing, the following trends were identified:
+
+* **The Study-Grade Link**: There is a statistically significant positive correlation between **Weekly Study Hours** and **GPA**. This confirms my first hypothesis that time investment is a primary driver of academic success.
+* **Impact of Attendance**: Statistical modeling shows that **Absences** have a stronger negative weight on GPA than any other single factor. This suggests that classroom presence is more critical than supplemental tutoring in this dataset.
+* **Lifestyle Influence**: My T-test results confirmed that students sleeping **7+ hours** maintain a higher average GPA than those with less sleep, even when study times are comparable.
+
+---
+
+## **Limitations & Future Work**
+
+To maintain a rigorous scientific approach, I have identified the following areas for improvement and expansion:
+
+### **Current Limitations**
+* **Synthetic Variables**: While the enriched variables (Screen Time and Sleep) are logically correlated, they are synthetically generated. Real-world survey data would provide higher behavioral accuracy.
+* **Data Diversity**: The current dataset represents a specific student sample size (2,392 records). Expanding this to include different university majors or geographic regions would improve the generalizability of the findings.
+
+### **Future Extensions**
+* **Machine Learning (Next Milestone)**: The next phase (due May 5th) will involve building a **Predictive Model** (Random Forest or Linear Regression) to classify students into performance categories based on these variables.
+* **Feature Refinement**: I plan to investigate if certain types of screen time (e.g., educational apps vs. entertainment) have different impacts on the "Study Efficiency Score."
+
+---
+
+## **AI Disclosure**
+In accordance with the DSA 210 Academic Integrity policy, I disclose that **Gemini 3 Flash** was used to assist in the following:
+* Structuring the GitHub repository and README format.
+* Formulating the technical language for hypothesis testing and results.
