@@ -65,3 +65,17 @@ Below is the regression analysis showing how study time impacts GPA, along with 
 ![Correlation Heatmap](./plots/image.png)
 
 ---
+## **Exploratory Data Analysis & Results**
+
+### **1. Study Habits vs. Performance**
+The regression analysis confirms a positive correlation between weekly study hours and GPA. As study time increases, we observe a steady rise in academic achievement, though outliers suggest that study efficiency varies among students.
+
+### **2. Feature Correlation Analysis**
+Using the correlation heatmap, we analyzed how various factors interact. Key observations include:
+* **Absences:** Have the strongest negative correlation with GPA.
+* **Sleep & Screen Time:** My enriched data shows that while moderate screen time is common, extreme lack of sleep negatively impacts the consistency of high-performing students.
+
+### **3. Hypothesis Testing Results**
+I performed a T-Test to compare students with high sleep (>7 hours) versus low sleep.
+* **Result:** The p-value was significantly lower than 0.05.
+* **Conclusion:** We reject the null hypothesis. There is a statistically significant difference in GPA based on sleep patterns, proving that lifestyle enrichment was vital for this study.
