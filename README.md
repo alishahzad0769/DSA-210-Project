@@ -34,7 +34,15 @@ Following the guidelines for using public data, I have enriched the dataset with
 * **Planned Analysis**: These enrichments allow for the exploration of how modern daily habits influence the relationship between study hours and academic performance.
 
 ---
+## **Initial Hypotheses**
 
+Before conducting the analysis, I established the following hypotheses to test the impact of both traditional academic habits and modern lifestyle factors:
+
+* **Hypothesis 1 (Study Time & Attendance):** There is a positive linear correlation between **Weekly Study Hours** and **GPA**. However, I predict that this relationship is moderated by **Absences**, where high absenteeism will diminish the positive effects of studying.
+* **Hypothesis 2 (Lifestyle Factors):** Students who maintain a consistent **Sleep Schedule** (averaging over 7 hours per night) will perform significantly better than those with irregular or low sleep, regardless of their total study hours.
+* **Hypothesis 3 (Digital Habits):** High daily **Screen Time** (greater than 6 hours) will act as a "success suppressor," showing a strong negative correlation with high academic achievement and GPA.
+
+---
 ## **Project Status: Milestone 1 (April 14, 2026)**
 
 The initial phase of data processing and statistical analysis is complete. The following tasks have been performed in the current commit:
