@@ -62,6 +62,6 @@ Below is the regression analysis showing how study time impacts GPA, along with 
 ![Study Time vs GPA](plots/study_time_vs_gpa.png)
 
 ### **Feature Correlation Heatmap**
-![Correlation Heatmap](./plots/unamed.png)
+![Correlation Heatmap](./plots/unnamed.png)
 
 ---
