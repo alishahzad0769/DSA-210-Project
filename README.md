@@ -52,8 +52,16 @@ I conducted a T-Test to evaluate the impact of sleep on academic performance:
 ### **3. Visualizations**
 * Created a **Regression Plot** comparing weekly study hours to GPA, showing a clear positive correlation between consistent study habits and higher academic scores.
 
+---
+
+## **Visual Analysis (EDA)**
+
 Below is the regression analysis showing how study time impacts GPA, along with a heatmap showing correlations between all variables, including the enriched data (Sleep and Screen Time).
 
+### **Study Time vs. GPA Correlation**
 ![Study Time vs GPA](plots/study_time_vs_gpa.png)
 
+### **Feature Correlation Heatmap**
 ![Correlation Heatmap](plots/correlation_heatmap.png)
+
+---
