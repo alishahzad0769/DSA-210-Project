@@ -112,10 +112,3 @@ To maintain a rigorous scientific approach, I have identified the following area
 ### **Future Extensions**
 * **Machine Learning (Next Milestone)**: The next phase (due May 5th) will involve building a **Predictive Model** (Random Forest or Linear Regression) to classify students into performance categories based on these variables.
 * **Feature Refinement**: I plan to investigate if certain types of screen time (e.g., educational apps vs. entertainment) have different impacts on the "Study Efficiency Score."
-
----
-
-## **AI Disclosure**
-In accordance with the DSA 210 Academic Integrity policy, I disclose that **Gemini 3 Flash** was used to assist in the following:
-* Structuring the GitHub repository and README format.
-* Formulating the technical language for hypothesis testing and results.
