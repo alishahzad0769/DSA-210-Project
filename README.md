@@ -30,7 +30,9 @@ This project specifically aims to address the following:
 Following the guidelines for using public data, I have enriched the dataset with additional information to add depth to the analysis:
 
 * **Lifestyle Factors**: The dataset has been supplemented with lifestyle-related variables, specifically estimated **screen time** and **sleep patterns**.
-* **Feature Engineering**: I have created new variables, such as a **Study Efficiency Score**, which combines study time and absences to better represent student behavior.
+* **Feature Engineering**:
+    * I created new variables, such as a **Study Efficiency Score**, which combines study time and absences to better represent student behavior.
+    * I also integrated synthetic **Screen Time** and **Sleep Hours** variables to analyze modern lifestyle impacts.
 * **Planned Analysis**: These enrichments allow for the exploration of how modern daily habits influence the relationship between study hours and academic performance.
 
 ---
