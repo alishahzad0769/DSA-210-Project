@@ -15,8 +15,6 @@ This project specifically aims to address the following:
 * **Practical Application of Data Science**: To demonstrate how the data science pipeline—from cleaning raw data to applying statistical models—can be used to answer practical questions about student behavior and performance.
 * **Predictive Insight**: To create a framework that can help identify at-risk students based on their habits, allowing for earlier intervention and better academic support.
 ---
----
-
 ## **Repository Structure**
 
 ```text
