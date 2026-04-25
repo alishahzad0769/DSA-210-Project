@@ -112,3 +112,19 @@ To maintain a rigorous scientific approach, I have identified the following area
 ### **Future Extensions**
 * **Machine Learning (Next Milestone)**: The next phase (due May 5th) will involve building a **Predictive Model** (Random Forest or Linear Regression) to classify students into performance categories based on these variables.
 * **Feature Refinement**: I plan to investigate if certain types of screen time (e.g., educational apps vs. entertainment) have different impacts on the "Study Efficiency Score."
+
+## **Milestone 2: Machine Learning Analysis **
+
+I applied a **Linear Regression** model to predict student GPA based on academic and lifestyle features.
+
+### **Model Results**
+* **Model Accuracy ($R^2$):** 0.953 (The model explains 95% of the variance in GPA).
+* **Root Mean Squared Error (RMSE):** 0.197 (The predictions are accurate within ~0.2 GPA points).
+
+### **Actual vs. Predicted GPA**
+The following plot shows how closely the model's predictions align with the actual data. The red dashed line represents perfect prediction.
+![Actual vs Predicted GPA](plots/regression_results.png)
+
+### **Key Predictors (Feature Importance)**
+This chart shows which factors had the most significant mathematical weight. **Absences** remain the strongest negative predictor, while **Tutoring** and **Extracurriculars** are the strongest positive predictors.
+![Feature Importance](plots/feature_importance.png)
