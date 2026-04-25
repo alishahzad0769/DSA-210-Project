@@ -15,6 +15,25 @@ This project specifically aims to address the following:
 * **Practical Application of Data Science**: To demonstrate how the data science pipeline—from cleaning raw data to applying statistical models—can be used to answer practical questions about student behavior and performance.
 * **Predictive Insight**: To create a framework that can help identify at-risk students based on their habits, allowing for earlier intervention and better academic support.
 ---
+---
+
+## **Repository Structure**
+
+```text
+├── data/
+│   ├── Student_performance_data _.csv      # Raw dataset
+│   └── enriched_student_data.csv           # Cleaned data with Sleep and Screen Time
+├── notebooks/
+│   ├── data_preparation_and_eda.ipynb      # Milestone 1: Cleaning & Visualization
+│   └── ml_regression_analysis.ipynb        # Milestone 2: Machine Learning Model
+├── plots/
+│   ├── unamed.png                          # Regression: Study Time vs GPA
+│   ├── image.png                           # Feature correlation heatmap
+│   ├── regression_results.png              # Actual vs. Predicted GPA results
+│   └── feature_importance.png              # ML Model factor weights
+├── requirements.txt                        # Required Python libraries
+└── README.md                               # Project documentation and results
+```
 ## **Data Source & Collection**
 
 * **Primary Dataset**: This project utilizes the **Student Performance Dataset**, which is a publicly available dataset.
