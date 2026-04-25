@@ -145,3 +145,32 @@ The following plot shows how closely the model's predictions align with the actu
 ### **Key Predictors (Feature Importance)**
 This chart shows which factors had the most significant mathematical weight. **Absences** remain the strongest negative predictor, while **Tutoring** and **Extracurriculars** are the strongest positive predictors.
 ![Feature Importance](plots/feature_importance.png)
+
+--- 
+
+## **Methodology & Project Pipeline**
+
+My approach to this project follows a structured data science workflow:
+
+1. **Data Enrichment**: I expanded the base student dataset by simulating "Lifestyle Factors" (Sleep and Screen Time). I designed these to follow realistic distributions to see if modern lifestyle habits correlate with academic success.
+2. **Feature Engineering**: I created a `StudyEfficiencyScore` to normalize study hours against total performance, allowing for a more nuanced look at how students spend their time.
+3. **Exploratory Analysis**: 
+    * I used **Regression Plots** to visualize the linear relationship between time-based habits and GPA.
+    * I generated a **Correlation Heatmap** to identify which variables (like Absences vs. Tutoring) had the strongest influence on the final grade.
+4. **Hypothesis Testing**: I used an **Independent T-Test** to statistically verify if the difference in GPA between "High Sleep" and "Low Sleep" groups was due to chance or a real trend.
+5. **Predictive Modeling**: I chose **Linear Regression** for Milestone 2 because GPA is a continuous numerical value, making regression the most effective tool for predicting future performance.
+
+---
+
+## **How to Reproduce This Project**
+
+To replicate this analysis on your local machine, follow these steps:
+
+### **1. Setup**
+* Ensure you have **Python 3.8+** installed.
+* Clone this repository to your local drive.
+
+### **2. Install Libraries**
+Run the following command in your terminal to install all necessary dependencies:
+```bash
+pip install -r requirements.txt
