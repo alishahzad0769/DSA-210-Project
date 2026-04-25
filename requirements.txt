@@ -1,0 +1,13 @@
+# Data Processing (From Milestone 1)
+pandas
+numpy
+
+# Visualization (From Milestone 1)
+seaborn
+matplotlib
+
+# Statistical Testing (From Milestone 1)
+scipy
+
+# Machine Learning (New for Milestone 2)
+scikit-learn
