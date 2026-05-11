@@ -165,12 +165,13 @@ My approach to this project follows a structured data science workflow:
 ## **How to Reproduce This Project**
 
 To replicate this analysis on your local machine, follow these steps:
-
 ### **1. Setup**
 * Ensure you have **Python 3.8+** installed.
-* Clone this repository to your local drive.
-
-### **2. Install Libraries**
+### **2. Clone the repository**
+* git clone https://github.com/alishahzad0769/DSA-210-Project.git
+### **3. Enter the project directory**
+* cd DSA-210-Project
+### **4. Install all dependencies**
 Run the following command in your terminal to install all necessary dependencies:
 ```bash
 pip install -r requirements.txt
