@@ -174,3 +174,18 @@ To replicate this analysis on your local machine, follow these steps:
 Run the following command in your terminal to install all necessary dependencies:
 ```bash
 pip install -r requirements.txt
+
+## **AI Disclosure**
+
+In accordance with academic integrity guidelines, I disclose that Generative AI (Google Gemini) was utilized to assist in the development of this project.
+
+### **Extent of AI Assistance**
+* **Code Debugging & Optimization:** AI assisted in troubleshooting file pathing logic and refining the `scikit-learn` regression pipeline.
+* **Documentation & Formatting:** AI was used to help structure this README and the formal Final Report to ensure technical clarity and a professional tone.
+
+### **Human Contribution**
+While AI served as a technical assistant, the core of this project was independently managed:
+* **Research Design:** I defined the initial research questions and the specific lifestyle factors to be analyzed.
+* **Data Selection:** I chose the primary student performance dataset and determined how the enriched variables should interact with the target (GPA).
+* **Statistical Interpretation:** I analyzed the T-test results and interpreted the regression coefficients to draw the final conclusions regarding the "Attendance Penalty" and the "Support Boost."
+* **Review & Verification:** All AI-suggested code and documentation were reviewed, tested, and modified by me to ensure accuracy and compliance with project requirements.
