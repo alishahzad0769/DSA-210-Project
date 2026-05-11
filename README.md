@@ -174,6 +174,9 @@ To replicate this analysis on your local machine, follow these steps:
 Run the following command in your terminal to install all necessary dependencies:
 ```bash
 pip install -r requirements.txt
+``` 
+
+---
 
 ## **AI Disclosure**
 
